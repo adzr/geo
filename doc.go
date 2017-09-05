@@ -36,7 +36,7 @@ Usage
 Then, import the package:
 
   import (
-    github.com/adzr/geo
+    "github.com/adzr/geo"
   )
 
 Examples
