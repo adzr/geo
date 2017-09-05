@@ -17,9 +17,10 @@ limitations under the License.
 package geo
 
 import (
-	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetDistance(t *testing.T) {

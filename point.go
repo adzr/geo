@@ -18,8 +18,9 @@ package geo
 
 import (
 	"fmt"
-	"github.com/adzr/mathex"
 	"math"
+
+	"github.com/adzr/mathex"
 )
 
 const (

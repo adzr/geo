@@ -17,8 +17,9 @@ limitations under the License.
 package geo
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestBoundary_ConstructorAndGetters(t *testing.T) {

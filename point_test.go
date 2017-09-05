@@ -18,9 +18,10 @@ package geo
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 const (
@@ -130,4 +131,14 @@ func TestPoint_String(t *testing.T) {
 	s = &point{latitude: 45.12345678, longitude: 35.87654321}
 
 	assert.Equal(t, "(45.12345678, 35.87654321)", s.String())
+}
+
+func TestPoint_Precision(t *testing.T) {
+	p := NewPoint(45.1234567851, 35.8765432138)
+	assert.InDelta(t, 45.12345679, p.Latitude(), 0)
+	assert.InDelta(t, 35.87654321, p.Longitude(), 0)
+
+	p = NewPoint(-45.1234567851, -35.8765432138)
+	assert.InDelta(t, -45.12345679, p.Latitude(), 0)
+	assert.InDelta(t, -35.87654321, p.Longitude(), 0)
 }
