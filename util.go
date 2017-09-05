@@ -120,19 +120,9 @@ func GetHash(point Point, precision uint8) Hash {
 // based on the precision given.
 // Considering P is the point given, and N is a neighbour, the function will return the following:
 //
-//  -----------------------------
-// |         |         |         |
-// |    N    |    N    |    N    |
-// |         |         |         |
-//  -----------------------------
-// |         |         |         |
-// |    N    |    P    |    N    |
-// |         |         |         |
-//  -----------------------------
-// |         |         |         |
-// |    N    |    N    |    N    |
-// |         |         |         |
-//  -----------------------------
+// N N N
+// N P N
+// N N N
 //
 // This can help in locating points in nearby areas.
 func GetHashAndNeighbours(point Point, precision uint8) []Hash {
