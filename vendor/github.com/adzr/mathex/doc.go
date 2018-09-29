@@ -1,5 +1,5 @@
 /*
-Copyright 2017 Ahmed Zaher
+Copyright 2018 Ahmed Zaher
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ Package mathex provides some common math functions that complements the standard
 
 Brief
 
-I've created this library to wrap any math functions that I find missing from the standard Go math package to fit my personal development needs.
+This library is to wrap any math functions that's missing from the standard Go math package.
 
 Usage
 

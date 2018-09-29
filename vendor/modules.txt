@@ -1,0 +1,8 @@
+# github.com/adzr/mathex v0.0.0-20180929103943-a1e7eaf3798f
+github.com/adzr/mathex
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.2.2
+github.com/stretchr/testify/assert

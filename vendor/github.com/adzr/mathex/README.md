@@ -1,7 +1,11 @@
 # mathex
-A tiny extension to the standard math library in [Go](https://golang.org) that might grow in future.
+A tiny extension to the standard math library in [Go](https://golang.org) that tries to complement what's missing.
 
-[![GoDoc](https://godoc.org/github.com/adzr/mathex?status.png)](https://godoc.org/github.com/adzr/mathex) [![Build Status](https://travis-ci.org/adzr/mathex.svg?branch=master)](https://travis-ci.org/adzr/mathex) [![Coverage Status](https://coveralls.io/repos/github/adzr/mathex/badge.svg?branch=master)](https://coveralls.io/github/adzr/mathex?branch=master)
+[![License](https://img.shields.io/badge/license-apache%20v2.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/adzr/mathex)
+[![TravisCI](https://img.shields.io/travis/com/adzr/mathex.svg?style=flat-square)](https://travis-ci.com/adzr/mathex)
+[![Codecov](https://img.shields.io/codecov/c/github/adzr/mathex.svg?style=flat-square)](https://codecov.io/gh/adzr/mathex)
+[![Go Report Card](https://goreportcard.com/badge/github.com/adzr/mathex?style=flat-square)](https://goreportcard.com/report/github.com/adzr/mathex)
 
 ## Documentation
 Please refer to the [godoc](https://godoc.org/github.com/adzr/mathex) pages for documentation.

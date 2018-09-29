@@ -1,5 +1,5 @@
 /*
-Copyright 2017 Ahmed Zaher
+Copyright 2018 Ahmed Zaher
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Package mathex provides some common math functions that complements the standard math package.
 package mathex
 
 import (
